@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "configurable-caves",
+  "version": "1.0.0",
+  "name": "Configurable Caves",
+  "description": "Configure many aspects of noise cave generation!",
+  "authors": [
+    "Apollo"
+  ],
+  "contact": {},
+  "license": "ARR",
+  "icon": "assets/configurable-caves/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "apollo.configurable.caves.ConfigurableCavesMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.13",
+    "minecraft": "\u003e\u003d1.19",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/owo-sentinel-0.9.3+1.19.jar"
+    }
+  ]
+}
