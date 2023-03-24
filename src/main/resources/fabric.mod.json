@@ -18,9 +18,9 @@
   },
   "mixins": [],
   "depends": {
-    "fabricloader": "\u003e\u003d0.14.13",
-    "minecraft": "\u003e\u003d1.19",
-    "java": "\u003e\u003d17",
+    "fabricloader": ">=0.14.13",
+    "minecraft": ">=1.19",
+    "java": ">=17",
     "fabric-api": "*"
   },
   "suggests": {
